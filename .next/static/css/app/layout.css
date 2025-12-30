@@ -722,6 +722,9 @@ code, pre {
 .mt-8{
   margin-top: 2rem;
 }
+.ml-3{
+  margin-left: 0.75rem;
+}
 .line-clamp-1{
   overflow: hidden;
   display: -webkit-box;
@@ -824,6 +827,12 @@ code, pre {
 }
 .h-screen{
   height: 100vh;
+}
+.h-32{
+  height: 8rem;
+}
+.h-\[350px\]{
+  height: 350px;
 }
 .max-h-\[90vh\]{
   max-height: 90vh;
@@ -1075,6 +1084,9 @@ code, pre {
 .divide-white\/5 > :not([hidden]) ~ :not([hidden]){
   border-color: rgb(255 255 255 / 0.05);
 }
+.divide-white\/10 > :not([hidden]) ~ :not([hidden]){
+  border-color: rgb(255 255 255 / 0.1);
+}
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1298,6 +1310,9 @@ code, pre {
 }
 .bg-yellow-500\/5{
   background-color: rgb(234 179 8 / 0.05);
+}
+.bg-transparent{
+  background-color: transparent;
 }
 .bg-gradient-to-br{
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
